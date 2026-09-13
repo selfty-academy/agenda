@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agenda des Selfty Calls · Selfty Academy</title>
+<meta name="description" content="Abonne-toi à l'agenda des Selfty Calls : tous les calls en live avec Anaïs, avec le lien Zoom, directement dans ton Google Agenda, Apple Calendrier ou Outlook.">
+<meta name="robots" content="noindex">
+<link rel="alternate" type="text/calendar" title="Selfty Academy · Calls" href="calls-selfty.ics">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23F4DDDD'/%3E%3Ctext x='32' y='43' font-size='34' text-anchor='middle' font-family='serif' fill='%233A2A2A'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --rose:#F4DDDD; --paper:#FAEEEE; --ink:#3A2A2A; --ink-soft:#5C4646; --mauve:#966868; --mauve-deep:#7E5252;
+    --muted:#8A7070; --border:#EBD2D2; --card:#FFFDFB; --ok:#4C7A5E;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:Jost,"Helvetica Neue",Arial,sans-serif;font-size:17px;line-height:1.55}
+  a{color:var(--mauve-deep)}
+  .wrap{max-width:640px;margin:0 auto;padding:28px 20px 64px}
+  header{text-align:center;padding:8px 0 22px}
+  header img{width:min(240px,64vw);height:auto;display:block;margin:0 auto 18px}
+  .kicker{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--mauve);font-weight:500;margin:0 0 10px}
+  h1{font-family:"Playfair Display",Georgia,serif;font-weight:600;font-size:clamp(30px,7vw,40px);line-height:1.12;margin:0 0 14px;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--mauve-deep)}
+  .lead{font-size:18px;color:var(--ink-soft);margin:0 auto;max-width:520px}
+  h2{font-family:"Playfair Display",Georgia,serif;font-weight:600;font-size:24px;margin:0 0 6px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:22px 20px;margin:18px 0;box-shadow:0 8px 30px rgba(58,42,42,.05)}
+  .card.rose{background:var(--rose);border-color:transparent}
+  .step{display:flex;gap:16px;align-items:flex-start}
+  .num{flex:0 0 40px;width:40px;height:40px;border-radius:50%;background:var(--mauve);color:#fff;display:flex;align-items:center;justify-content:center;font-family:"Playfair Display",Georgia,serif;font-size:20px;font-weight:600;margin-top:2px}
+  .step p{margin:6px 0 0;color:var(--ink-soft)}
+  .btns{display:grid;gap:12px;margin-top:16px}
+  .btn{display:flex;align-items:center;gap:14px;padding:15px 18px;border-radius:14px;text-decoration:none;font-weight:500;font-size:17px;border:1.5px solid var(--border);background:#fff;color:var(--ink);transition:transform .08s ease,box-shadow .12s ease}
+  .btn:active{transform:scale(.99)}
+  .btn:hover{box-shadow:0 6px 18px rgba(150,104,104,.18)}
+  .btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .btn .ico{flex:0 0 30px;width:30px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:16px;background:var(--paper);color:var(--ink)}
+  .btn.primary .ico{background:rgba(255,255,255,.14);color:#fff}
+  .btn small{display:block;font-weight:400;font-size:13px;opacity:.72;margin-top:1px}
+  .btn .txt{flex:1}
+  .btn .chev{opacity:.5}
+  .link-row{display:flex;gap:10px;align-items:center;margin-top:14px;flex-wrap:wrap}
+  .url{flex:1;min-width:0;font-size:13px;background:var(--paper);border:1px dashed var(--border);border-radius:10px;padding:10px 12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--ink-soft)}
+  .copy{border:1.5px solid var(--mauve);background:transparent;color:var(--mauve-deep);border-radius:10px;padding:9px 14px;font:inherit;font-size:15px;font-weight:500;cursor:pointer}
+  .copy.done{background:var(--mauve);color:#fff}
+  .list{list-style:none;padding:0;margin:14px 0 0}
+  .list li{display:flex;gap:14px;align-items:center;padding:12px 0;border-top:1px solid var(--border)}
+  .list li:first-child{border-top:0}
+  .date{flex:0 0 58px;text-align:center;background:var(--rose);border-radius:12px;padding:7px 4px;line-height:1.1}
+  .date b{display:block;font-family:"Playfair Display",Georgia,serif;font-size:22px;font-weight:600}
+  .date span{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--mauve-deep);margin-top:3px}
+  .ev{flex:1;min-width:0}
+  .ev b{display:block;font-weight:500}
+  .ev span{display:block;font-size:14px;color:var(--muted)}
+  .ev .tag{display:inline-block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--mauve-deep);background:var(--rose);border-radius:6px;padding:2px 7px;margin-top:4px}
+  .zoom{flex:0 0 auto;font-size:14px;font-weight:500;color:var(--mauve-deep);text-decoration:none;border:1.5px solid var(--border);border-radius:9px;padding:6px 10px;white-space:nowrap}
+  .more{margin-top:12px;text-align:center}
+  .more button{background:none;border:0;color:var(--mauve-deep);font:inherit;font-size:15px;text-decoration:underline;cursor:pointer}
+  .muted{color:var(--muted);font-size:14px}
+  .note{font-size:15px;color:var(--ink-soft);margin:10px 0 0}
+  details{border-top:1px solid var(--border);padding:12px 0}
+  details:last-of-type{border-bottom:1px solid var(--border)}
+  summary{cursor:pointer;font-weight:500;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:10px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-family:"Playfair Display",Georgia,serif;font-size:22px;color:var(--mauve)}
+  details[open] summary::after{content:"\2212"}
+  details p{margin:8px 0 0;color:var(--ink-soft);font-size:15px}
+  footer{text-align:center;margin-top:34px;font-size:13px;color:var(--muted)}
+  footer a{color:var(--muted)}
+  @media (min-width:560px){ .btns{grid-template-columns:1fr 1fr} .btns .btn.primary{grid-column:1 / -1} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img src="assets/logo-selfty.png" alt="Selfty Academy" width="600" height="291">
+    <p class="kicker">Rentrée du 10 octobre 2026</p>
+    <h1>Tous tes <em>Selfty Calls</em> dans ton agenda</h1>
+    <p class="lead">Abonne-toi une fois : chaque call en live avec Anaïs apparaît dans ton agenda, avec le lien Zoom, et se met à jour tout seul si une date bouge.</p>
+  </header>
+
+  <section class="card rose">
+    <div class="step">
+      <div class="num">1</div>
+      <div>
+        <h2>Choisis ton agenda</h2>
+        <p>Touche le bouton de l'agenda que tu utilises sur ton téléphone ou ton ordinateur.</p>
+      </div>
+    </div>
+    <div class="btns" id="btns">
+      <a class="btn primary" id="btn-google" href="#" target="_blank" rel="noopener">
+        <span class="ico">G</span>
+        <span class="txt">Ajouter à Google Agenda<small>Sur ordinateur, ou dans l'app Google Agenda</small></span>
+        <span class="chev">&rsaquo;</span>
+      </a>
+      <a class="btn" id="btn-apple" href="#">
+        <span class="ico">&#63743;</span>
+        <span class="txt">Apple / iPhone<small>Calendrier iOS et Mac</small></span>
+        <span class="chev">&rsaquo;</span>
+      </a>
+      <a class="btn" id="btn-outlook" href="#" target="_blank" rel="noopener">
+        <span class="ico">O</span>
+        <span class="txt">Outlook<small>Outlook.com, ou Microsoft 365 <a id="btn-outlook-pro" href="#" target="_blank" rel="noopener">ici</a></small></span>
+        <span class="chev">&rsaquo;</span>
+      </a>
+    </div>
+    <div class="link-row">
+      <div class="url" id="url-ics">calls-selfty.ics</div>
+      <button class="copy" id="copy" type="button">Copier le lien</button>
+    </div>
+    <p class="note">Autre application ? Colle ce lien dans « Ajouter un agenda par URL » (ou « S'abonner à un calendrier »).</p>
+  </section>
+
+  <section class="card">
+    <div class="step">
+      <div class="num">2</div>
+      <div>
+        <h2>Confirme l'abonnement</h2>
+        <p>Google Agenda affiche « Ajouter cet agenda » : touche <b>Ajouter</b>. Sur iPhone, touche <b>S'abonner</b> puis <b>OK</b>. Sur Outlook, touche <b>Importer</b>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="step">
+      <div class="num">3</div>
+      <div>
+        <h2>C'est tout</h2>
+        <p>Les Selfty Calls sont dans ton agenda avec le lien Zoom et un rappel 1 h avant. Si une date change, ton agenda se met à jour tout seul, sans rien refaire.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card" id="calls">
+    <h2>Les prochains calls</h2>
+    <p class="muted" id="calls-info">Chargement de l'agenda...</p>
+    <ul class="list" id="calls-list"></ul>
+    <div class="more" id="more" hidden><button type="button" id="more-btn">Voir tous les calls</button></div>
+  </section>
+
+  <section class="card">
+    <h2>Questions fréquentes</h2>
+    <details>
+      <summary>Je suis sur l'app Google Agenda de mon téléphone, rien ne se passe ?</summary>
+      <p>L'abonnement se fait depuis le site Google Agenda (le bouton ouvre la bonne page). Une fois ajouté, l'agenda « Selfty Academy · Calls » apparaît aussi dans l'app du téléphone : vérifie qu'il est coché dans les réglages de l'app, rubrique agendas à afficher.</p>
+    </details>
+    <details>
+      <summary>Je ne vois pas encore la mise à jour d'une date</summary>
+      <p>Apple et Outlook rafraîchissent l'agenda plusieurs fois par jour. Google Agenda peut mettre jusqu'à 24 h. Le lien Zoom dans l'événement reste le bon.</p>
+    </details>
+    <details>
+      <summary>Plutôt un rappel avant chaque call ?</summary>
+      <p>Chaque call arrive déjà avec un rappel 1 h avant. Tu peux en ajouter d'autres dans ton agenda comme pour n'importe quel événement.</p>
+    </details>
+    <details>
+      <summary>Je veux me désabonner</summary>
+      <p>Supprime simplement l'agenda « Selfty Academy · Calls » de ton application : tous les calls disparaissent d'un coup.</p>
+    </details>
+  </section>
+
+  <footer>
+    Selfty Academy · <a href="calls-selfty.ics">fichier .ics</a> · heure de Paris
+  </footer>
+</div>
+
+<script>
+(function () {
+  var FICHIER = 'calls-selfty.ics';
+  var NOM = 'Selfty Academy · Calls';
+  var base = location.origin + location.pathname.replace(/[^\/]*$/, '');
+  if (location.protocol === 'file:') base = 'https://selfty-academy.github.io/agenda/';
+  var httpsUrl = base + FICHIER;
+  var webcalUrl = httpsUrl.replace(/^https?:\/\//, 'webcal://');
+
+  document.getElementById('btn-google').href = 'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent(webcalUrl);
+  document.getElementById('btn-apple').href = webcalUrl;
+  document.getElementById('btn-outlook').href = 'https://outlook.live.com/calendar/0/addfromweb?url=' + encodeURIComponent(webcalUrl) + '&name=' + encodeURIComponent(NOM);
+  document.getElementById('btn-outlook-pro').href = 'https://outlook.office.com/calendar/0/addfromweb?url=' + encodeURIComponent(webcalUrl) + '&name=' + encodeURIComponent(NOM);
+  document.getElementById('url-ics').textContent = httpsUrl;
+
+  var copy = document.getElementById('copy');
+  copy.addEventListener('click', function () {
+    var done = function () { copy.textContent = 'Lien copié'; copy.classList.add('done'); setTimeout(function () { copy.textContent = 'Copier le lien'; copy.classList.remove('done'); }, 2200); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(httpsUrl).then(done, function () { prompt('Copie ce lien :', httpsUrl); });
+    else prompt('Copie ce lien :', httpsUrl);
+  });
+
+  // Lecture du .ics (même origine) pour afficher les prochains calls
+  function unfold(txt) { return txt.replace(/\r\n/g, '\n').replace(/\n[ \t]/g, ''); }
+  function unesc(s) { return s.replace(/\\n/gi, '\n').replace(/\\,/g, ',').replace(/\;/g, ';').replace(/\\\\/g, '\\'); }
+  function parisOffsetMin(utcMs) {
+    var f = new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Paris', hour12: false, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' });
+    var p = {}; f.formatToParts(new Date(utcMs)).forEach(function (x) { p[x.type] = x.value; });
+    var asUtc = Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour % 24, +p.minute, +p.second);
+    return Math.round((asUtc - utcMs) / 60000);
+  }
+  function parisToDate(s) {
+    // s = AAAAMMJJTHHMMSS en heure de Paris (ou Z en UTC)
+    var m = /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})?(Z)?$/.exec(s);
+    if (!m) return null;
+    var guess = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5], +(m[6] || 0));
+    if (m[7]) return new Date(guess);
+    var off = parisOffsetMin(guess);
+    var d = guess - off * 60000;
+    off = parisOffsetMin(d);
+    return new Date(guess - off * 60000);
+  }
+  function parse(txt) {
+    var out = [], cur = null;
+    unfold(txt).split('\n').forEach(function (line) {
+      if (line === 'BEGIN:VEVENT') { cur = {}; return; }
+      if (line === 'END:VEVENT') { if (cur) out.push(cur); cur = null; return; }
+      if (!cur) return;
+      var i = line.indexOf(':'); if (i < 0) return;
+      var key = line.slice(0, i).split(';')[0], val = line.slice(i + 1);
+      if (key === 'DTSTART') cur.start = parisToDate(val);
+      else if (key === 'DTEND') cur.end = parisToDate(val);
+      else if (key === 'SUMMARY') cur.title = unesc(val);
+      else if (key === 'LOCATION') cur.loc = unesc(val);
+      else if (key === 'URL') cur.url = val;
+      else if (key === 'CATEGORIES') cur.cat = unesc(val);
+    });
+    return out.filter(function (e) { return e.start; }).sort(function (a, b) { return a.start - b.start; });
+  }
+  var fmtJour = new Intl.DateTimeFormat('fr-FR', { timeZone: 'Europe/Paris', weekday: 'long' });
+  var fmtNum = new Intl.DateTimeFormat('fr-FR', { timeZone: 'Europe/Paris', day: 'numeric' });
+  var fmtMois = new Intl.DateTimeFormat('fr-FR', { timeZone: 'Europe/Paris', month: 'short' });
+  var fmtHeure = new Intl.DateTimeFormat('fr-FR', { timeZone: 'Europe/Paris', hour: '2-digit', minute: '2-digit' });
+  function h(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function render(evs, all) {
+    var list = document.getElementById('calls-list'), info = document.getElementById('calls-info'), more = document.getElementById('more');
+    var now = Date.now();
+    var futurs = evs.filter(function (e) { return (e.end || e.start).getTime() > now - 3600000; });
+    if (!futurs.length) { info.textContent = 'Aucun call à venir pour le moment.'; list.innerHTML = ''; more.hidden = true; return; }
+    var shown = all ? futurs : futurs.slice(0, 5);
+    info.textContent = futurs.length + ' call' + (futurs.length > 1 ? 's' : '') + ' à venir · heure de Paris';
+    list.innerHTML = shown.map(function (e) {
+      var d = e.start, isPrat = /pratique/i.test(e.cat || '') || /pratique/i.test(e.title || '');
+      var link = (e.url || e.loc || '');
+      var okLink = /^https?:\/\//.test(link) && link.indexOf('XXXXXXXX') < 0;
+      return '<li><div class="date"><b>' + h(fmtNum.format(d)) + '</b><span>' + h(fmtMois.format(d).replace('.', '')) + '</span></div>' +
+        '<div class="ev"><b>' + h(e.title || 'Selfty Call') + '</b><span>' + h(fmtJour.format(d)) + ' · ' + h(fmtHeure.format(d)).replace(':', 'h') + (e.end ? ' à ' + h(fmtHeure.format(e.end)).replace(':', 'h') : '') + '</span>' +
+        (isPrat ? '<span class="tag">facultatif</span>' : '') + '</div>' +
+        (okLink ? '<a class="zoom" href="' + h(link) + '" target="_blank" rel="noopener">Zoom</a>' : '') + '</li>';
+    }).join('');
+    more.hidden = all || futurs.length <= 5;
+  }
+  fetch(FICHIER, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); }).then(function (txt) {
+    var evs = parse(txt);
+    render(evs, false);
+    document.getElementById('more-btn').addEventListener('click', function () { render(evs, true); });
+  }).catch(function () {
+    document.getElementById('calls-info').textContent = 'La liste ne s\'affiche pas ici, mais l\'abonnement fonctionne : utilise les boutons ci-dessus.';
+  });
+})();
+</script>
+</body>
+</html>
