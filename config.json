@@ -1,40 +1,36 @@
 {
   "_A_CONFIRMER_AVEC_ANAIS": {
-    "jour": "Hypothèse : mardi. Le jour de la semaine du Selfty Call n'est pas encore confirmé.",
-    "heure": "Hypothèse : 18:30 (heure de Paris). Pas encore confirmée.",
+    "jour": "Samedi matin, dit par Anaïs (repris par Alex le 14/09). Jour confirmé.",
+    "heure": "Hypothèse : 10:00 (heure de Paris). L'heure exacte du samedi matin reste à confirmer par Anaïs.",
     "zoom": "PLACEHOLDER : remplacer https://us06web.zoom.us/j/XXXXXXXX par le lien Zoom récurrent des calls (pas celui du webinaire).",
     "pauses": "Hypothèse : vacances de Noël du 21/12/2026 au 03/01/2027. À confirmer, et ajouter les autres pauses éventuelles."
   },
-
   "titre": "Selfty Call avec Anaïs",
   "nom_calendrier": "Selfty Academy · Calls",
   "fuseau": "Europe/Paris",
-
-  "jour": "mardi",
-  "heure": "18:30",
+  "jour": "samedi",
+  "heure": "10:00",
   "duree_min": 90,
-
   "date_debut": "2026-10-10",
   "semaines": 27,
   "rattraper_pauses": false,
-
   "pauses": [
-    { "du": "2026-12-21", "au": "2027-01-03", "motif": "Vacances de Noël" }
+    {
+      "du": "2026-12-21",
+      "au": "2027-01-03",
+      "motif": "Vacances de Noël"
+    }
   ],
-
   "annulations": [],
   "deplacements": {},
   "calls_supplementaires": [],
-
   "zoom": "https://us06web.zoom.us/j/XXXXXXXX",
   "description": "Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom : {zoom}\n\nArrive 5 min avant, micro coupé. Prépare tes questions et de quoi noter.\n\n{semaine}Agenda complet et abonnement : {site}",
   "rappel_min": 60,
-
   "pratiques": [],
   "pratiques_titre": "Pratique entre pairs (facultatif)",
   "pratiques_description": "Séance de pratique entre élèves de la Selfty Academy, en duo ou en trio, en visio.\n\n{lien}{note}Facultatif : tu viens si tu peux.\n\nAgenda complet : {site}",
-
   "site_url": "https://selfty-academy.github.io/agenda/",
   "fichier": "calls-selfty.ics",
-  "revision": 0
+  "revision": 1
 }
