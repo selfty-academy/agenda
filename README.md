@@ -22,7 +22,7 @@ Anaïs peut s'abonner à la même adresse depuis son Google Agenda (Autres agend
 
 ## Les 3 informations à demander à Anaïs
 
-1. **Les jours et heures des Selfty Calls** (dans `config.json` : `rythmes`). Confirmé par Anaïs le 15/09 : samedi 10:00 et lundi 18:00 (2 calls par semaine).
+1. **Les jours et heures des Selfty Calls** (dans `config.json` : `rythmes`). Confirmé par Anaïs le 15/09 : samedi 10:00 et lundi 18:30 (2 calls par semaine).
 2. **Le lien Zoom récurrent des calls** (`zoom`). Valeur actuelle = placeholder `https://us06web.zoom.us/j/XXXXXXXX`. Ne pas reprendre le lien du webinaire.
 3. **Les semaines de pause** (`pauses`). Valeur actuelle = hypothèse : vacances de Noël du 21/12/2026 au 03/01/2027.
 
@@ -46,7 +46,7 @@ Conseil : quand une date change, augmenter `revision` de 1 dans `config.json` (c
 ## Cas concrets
 
 ### Changer le jour ou l'heure de tous les calls
-Dans `rythmes` : `[{"jour": "samedi", "heure": "10:00"}, {"jour": "lundi", "heure": "18:00"}]` (un objet par rendez-vous hebdomadaire, `duree_min` possible). Sans `rythmes`, `jour` + `heure` servent encore. Les identifiants des événements restent stables : dans les agendas abonnés, les calls se déplacent, ils ne se dupliquent pas.
+Dans `rythmes` : `[{"jour": "samedi", "heure": "10:00"}, {"jour": "lundi", "heure": "18:30"}]` (un objet par rendez-vous hebdomadaire, `duree_min` possible). Sans `rythmes`, `jour` + `heure` servent encore. Les identifiants des événements restent stables : dans les agendas abonnés, les calls se déplacent, ils ne se dupliquent pas.
 
 ### Déplacer un seul call
 Dans `deplacements`, la clé est la date prévue au départ, la valeur la nouvelle date (et l'heure si elle change) :
