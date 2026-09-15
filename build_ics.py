@@ -84,7 +84,17 @@ def en_pause(d, pauses):
 
 
 def creneaux(cfg):
-    """Liste des calls hebdomadaires : (date_prevue, semaine_k, date_reelle, heure, minute, duree)."""
+    """Liste des calls hebdomadaires : (date_prevue, semaine_k, date_reelle, heure, minute, duree).
+    Plusieurs rendez-vous par semaine possibles via « rythmes » : [{"jour": "samedi", "heure": "10:00"}, ...]."""
+    rythmes = cfg.get("rythmes") or [{"jour": cfg["jour"], "heure": cfg["heure"]}]
+    res = []
+    for r in rythmes:
+        sous = dict(cfg, jour=r["jour"], heure=r.get("heure", cfg.get("heure")), duree_min=r.get("duree_min", cfg.get("duree_min", 90)))
+        res += creneaux_un_jour(sous)
+    return sorted(res, key=lambda c: (c[2], c[3], c[4]))
+
+
+def creneaux_un_jour(cfg):
     debut = parse_date(cfg["date_debut"])
     jour = JOURS[cfg["jour"].strip().lower()]
     h, m = parse_heure(cfg["heure"])

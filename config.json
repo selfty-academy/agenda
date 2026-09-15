@@ -1,7 +1,6 @@
 {
   "_A_CONFIRMER_AVEC_ANAIS": {
-    "jour": "Samedi matin, dit par Anaïs (repris par Alex le 14/09). Jour confirmé.",
-    "heure": "Hypothèse : 10:00 (heure de Paris). L'heure exacte du samedi matin reste à confirmer par Anaïs.",
+    "jours": "Confirmé par Anaïs (15/09) : Selfty Calls le samedi 10h et le lundi 18h.",
     "zoom": "PLACEHOLDER : remplacer https://us06web.zoom.us/j/XXXXXXXX par le lien Zoom récurrent des calls (pas celui du webinaire).",
     "pauses": "Hypothèse : vacances de Noël du 21/12/2026 au 03/01/2027. À confirmer, et ajouter les autres pauses éventuelles."
   },
@@ -32,5 +31,15 @@
   "pratiques_description": "Séance de pratique entre élèves de la Selfty Academy, en duo ou en trio, en visio.\n\n{lien}{note}Facultatif : tu viens si tu peux.\n\nAgenda complet : {site}",
   "site_url": "https://selfty-academy.github.io/agenda/",
   "fichier": "calls-selfty.ics",
-  "revision": 1
+  "revision": 2,
+  "rythmes": [
+    {
+      "jour": "samedi",
+      "heure": "10:00"
+    },
+    {
+      "jour": "lundi",
+      "heure": "18:00"
+    }
+  ]
 }

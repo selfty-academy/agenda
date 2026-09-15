@@ -30,8 +30,8 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:selfty-call-2026-10-10@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261010T100000
@@ -52,9 +52,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2026-10-12@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20261012T180000
+DTEND;TZID=Europe/Paris:20261012T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 1 sur 27.\n\nAgenda co
+ mplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2026-10-17@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261017T100000
@@ -75,9 +98,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2026-10-19@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20261019T180000
+DTEND;TZID=Europe/Paris:20261019T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 2 sur 27.\n\nAgenda co
+ mplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2026-10-24@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261024T100000
@@ -98,9 +144,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2026-10-26@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20261026T180000
+DTEND;TZID=Europe/Paris:20261026T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 3 sur 27.\n\nAgenda co
+ mplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2026-10-31@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261031T100000
@@ -121,9 +190,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2026-11-02@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20261102T180000
+DTEND;TZID=Europe/Paris:20261102T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 4 sur 27.\n\nAgenda co
+ mplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2026-11-07@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261107T100000
@@ -144,9 +236,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2026-11-09@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20261109T180000
+DTEND;TZID=Europe/Paris:20261109T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 5 sur 27.\n\nAgenda co
+ mplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2026-11-14@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261114T100000
@@ -167,9 +282,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2026-11-16@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20261116T180000
+DTEND;TZID=Europe/Paris:20261116T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 6 sur 27.\n\nAgenda co
+ mplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2026-11-21@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261121T100000
@@ -190,9 +328,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2026-11-23@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20261123T180000
+DTEND;TZID=Europe/Paris:20261123T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 7 sur 27.\n\nAgenda co
+ mplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2026-11-28@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261128T100000
@@ -213,9 +374,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2026-11-30@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20261130T180000
+DTEND;TZID=Europe/Paris:20261130T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 8 sur 27.\n\nAgenda co
+ mplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2026-12-05@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261205T100000
@@ -236,9 +420,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2026-12-07@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20261207T180000
+DTEND;TZID=Europe/Paris:20261207T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 9 sur 27.\n\nAgenda co
+ mplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2026-12-12@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261212T100000
@@ -259,9 +466,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2026-12-14@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20261214T180000
+DTEND;TZID=Europe/Paris:20261214T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 10 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2026-12-19@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261219T100000
@@ -282,9 +512,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-01-04@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270104T180000
+DTEND;TZID=Europe/Paris:20270104T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 13 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-01-09@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270109T100000
@@ -305,9 +558,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-01-11@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270111T180000
+DTEND;TZID=Europe/Paris:20270111T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 14 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-01-16@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270116T100000
@@ -328,9 +604,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-01-18@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270118T180000
+DTEND;TZID=Europe/Paris:20270118T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 15 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-01-23@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270123T100000
@@ -351,9 +650,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-01-25@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270125T180000
+DTEND;TZID=Europe/Paris:20270125T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 16 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-01-30@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270130T100000
@@ -374,9 +696,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-02-01@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270201T180000
+DTEND;TZID=Europe/Paris:20270201T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 17 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-02-06@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270206T100000
@@ -397,9 +742,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-02-08@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270208T180000
+DTEND;TZID=Europe/Paris:20270208T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 18 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-02-13@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270213T100000
@@ -420,9 +788,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-02-15@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270215T180000
+DTEND;TZID=Europe/Paris:20270215T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 19 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-02-20@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270220T100000
@@ -443,9 +834,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-02-22@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270222T180000
+DTEND;TZID=Europe/Paris:20270222T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 20 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-02-27@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270227T100000
@@ -466,9 +880,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-03-01@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270301T180000
+DTEND;TZID=Europe/Paris:20270301T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 21 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-03-06@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270306T100000
@@ -489,9 +926,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-03-08@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270308T180000
+DTEND;TZID=Europe/Paris:20270308T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 22 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-03-13@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270313T100000
@@ -512,9 +972,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-03-15@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270315T180000
+DTEND;TZID=Europe/Paris:20270315T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 23 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-03-20@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270320T100000
@@ -535,9 +1018,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-03-22@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270322T180000
+DTEND;TZID=Europe/Paris:20270322T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 24 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-03-27@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270327T100000
@@ -558,9 +1064,32 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-03-29@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270329T180000
+DTEND;TZID=Europe/Paris:20270329T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 25 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-04-03@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270403T100000
@@ -581,13 +1110,59 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:selfty-call-2027-04-05@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270405T180000
+DTEND;TZID=Europe/Paris:20270405T193000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 26 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:selfty-call-2027-04-10@selfty-academy.github.io
-DTSTAMP:20260914T211511Z
-SEQUENCE:1
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270410T100000
 DTEND;TZID=Europe/Paris:20270410T113000
+SUMMARY:Selfty Call avec Anaïs
+DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
+  https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
+ Prépare tes questions et de quoi noter.\n\nSemaine 27 sur 27.\n\nAgenda c
+ omplet et abonnement : https://selfty-academy.github.io/agenda/
+CATEGORIES:Selfty Academy
+LOCATION:https://us06web.zoom.us/j/XXXXXXXX
+URL:https://us06web.zoom.us/j/XXXXXXXX
+X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/XXXXXXXX
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Selfty Call avec Anaïs dans 1 h
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:selfty-call-2027-04-12@selfty-academy.github.io
+DTSTAMP:20260915T172823Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20270412T180000
+DTEND;TZID=Europe/Paris:20270412T193000
 SUMMARY:Selfty Call avec Anaïs
 DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   https://us06web.zoom.us/j/XXXXXXXX\n\nArrive 5 min avant\, micro coupé. 
