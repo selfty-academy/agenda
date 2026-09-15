@@ -1,7 +1,7 @@
 {
   "_A_CONFIRMER_AVEC_ANAIS": {
     "source": "Recopié le 16/09/2026 depuis l'agenda « Selfty Academy » créé par anaisbrault86@gmail.com et partagé avec Alex : Selfty Call le samedi 10h-11h30 et Selfty - Pratique le lundi 18h30-20h, du 17/10/2026 au 19/04/2027, plus les jalons de la promo.",
-    "attention_fuseau": "Chez Anaïs les événements sont enregistrés dans un fuseau UTC+2/+3 (type Athènes), donc ils tombent une heure trop tôt en heure de Paris (9h le samedi, 17h30 le lundi). Ici tout est en heure de Paris : samedi 10h, lundi 18h30. À faire corriger chez elle.",
+    "attention_fuseau": "Vérifié le 16/09/2026 en repassant le Google Agenda d'Alex en Europe/Paris : les événements d'Anaïs sont bien à samedi 10h00-11h30 et lundi 18h30-20h00 heure de Paris, avant comme après le passage à l'heure d'hiver. Le décalage d'une heure vu au départ venait uniquement du fuseau « Maroc » réglé sur l'agenda d'Alex.",
     "zoom": "PLACEHOLDER : remplacer https://us06web.zoom.us/j/XXXXXXXX par le lien Zoom récurrent des calls (pas celui du webinaire)."
   },
   "titre": "Selfty Call",
@@ -55,7 +55,7 @@
   "pratiques_description": "Séance de pratique entre élèves de la Selfty Academy, en duo ou en trio, en visio.\n\n{lien}{note}Facultatif : tu viens si tu peux.\n\nAgenda complet : {site}",
   "site_url": "https://selfty-academy.github.io/agenda/",
   "fichier": "calls-selfty.ics",
-  "revision": 4,
+  "revision": 5,
   "rythmes": [
     {
       "jour": "samedi",

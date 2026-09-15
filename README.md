@@ -31,7 +31,7 @@ Tout est recopié le 16/09/2026 de l'agenda **Selfty Academy** créé par `anais
 
 Les semaines sans call sont dans `annulations` (une date par rendez-vous supprimé), pas dans `pauses`.
 
-⚠️ **Fuseau horaire** : chez Anaïs, ces événements sont enregistrés dans un fuseau UTC+2/+3 (type Athènes), donc ils tombent une heure trop tôt en heure de Paris (9h le samedi, 17h30 le lundi). Ici tout est en **heure de Paris** : samedi 10h, lundi 18h30. À faire corriger dans son Google Agenda.
+**Fuseau horaire** : tout est en heure de Paris, des deux côtés. Vérifié le 16/09/2026 en repassant le Google Agenda d'Alex de « Maroc » à Europe/Paris : les événements d'Anaïs tombent bien à samedi 10h et lundi 18h30, avant comme après le passage à l'heure d'hiver. Le décalage d'une heure vu au départ ne venait que du fuseau d'affichage d'Alex.
 
 Reste à confirmer : **le lien Zoom récurrent des calls** (`zoom`), encore sur le placeholder `https://us06web.zoom.us/j/XXXXXXXX`. Ne pas reprendre le lien du webinaire.
 
