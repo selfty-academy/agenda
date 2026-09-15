@@ -20,13 +20,20 @@ Anaïs peut s'abonner à la même adresse depuis son Google Agenda (Autres agend
 
 `index.html` est la page d'explication (elle lit `calls-selfty.ics` pour afficher les prochains calls), `assets/logo-selfty.png` le logo.
 
-## Les 3 informations à demander à Anaïs
+## D'où viennent les dates
 
-1. **Les jours et heures des Selfty Calls** (dans `config.json` : `rythmes`). Confirmé par Anaïs le 15/09 : samedi 10:00 et lundi 18:30 (2 calls par semaine).
-2. **Le lien Zoom récurrent des calls** (`zoom`). Valeur actuelle = placeholder `https://us06web.zoom.us/j/XXXXXXXX`. Ne pas reprendre le lien du webinaire.
-3. **Les semaines de pause** (`pauses`). Valeur actuelle = hypothèse : vacances de Noël du 21/12/2026 au 03/01/2027.
+Tout est recopié le 16/09/2026 de l'agenda **Selfty Academy** créé par `anaisbrault86@gmail.com` (partagé avec Alex, et dupliqué à l'identique sur le compte `selfty.academy@gmail.com`) :
 
-Tant que ces 3 points ne sont pas confirmés, le calendrier est en ligne mais avec des valeurs provisoires. Une fois confirmés : modifier `config.json`, regénérer, pousser (voir ci-dessous).
+- **Selfty Call** : samedi 10:00 – 11:30, du 17/10/2026 au 17/04/2027 (20 calls, avec les semaines de coupure déjà retirées).
+- **Selfty - Pratique** : lundi 18:30 – 20:00, du 19/10/2026 au 19/04/2027 (20 séances).
+- **Ouverture des portes - Module 1** : lundi 12/10/2026 18:30 ; **Call Q&A Certification + explication du portail- Ambre** : mardi 01/12/2026 18:30 (`calls_supplementaires`).
+- Les dates clés de la promo (ouverture du portail, examens, challenges, fin de cohorte) sont des événements « toute la journée » dans `jalons`.
+
+Les semaines sans call sont dans `annulations` (une date par rendez-vous supprimé), pas dans `pauses`.
+
+⚠️ **Fuseau horaire** : chez Anaïs, ces événements sont enregistrés dans un fuseau UTC+2/+3 (type Athènes), donc ils tombent une heure trop tôt en heure de Paris (9h le samedi, 17h30 le lundi). Ici tout est en **heure de Paris** : samedi 10h, lundi 18h30. À faire corriger dans son Google Agenda.
+
+Reste à confirmer : **le lien Zoom récurrent des calls** (`zoom`), encore sur le placeholder `https://us06web.zoom.us/j/XXXXXXXX`. Ne pas reprendre le lien du webinaire.
 
 ## Modifier le calendrier (la routine)
 
@@ -46,7 +53,7 @@ Conseil : quand une date change, augmenter `revision` de 1 dans `config.json` (c
 ## Cas concrets
 
 ### Changer le jour ou l'heure de tous les calls
-Dans `rythmes` : `[{"jour": "samedi", "heure": "10:00"}, {"jour": "lundi", "heure": "18:30"}]` (un objet par rendez-vous hebdomadaire, `duree_min` possible). Sans `rythmes`, `jour` + `heure` servent encore. Les identifiants des événements restent stables : dans les agendas abonnés, les calls se déplacent, ils ne se dupliquent pas.
+Dans `rythmes` : `[{"jour": "samedi", "heure": "10:00", "titre": "Selfty Call"}, {"jour": "lundi", "heure": "18:30", "titre": "Selfty - Pratique"}]` (un objet par rendez-vous hebdomadaire, `duree_min` et `titre` possibles). Sans `rythmes`, `jour` + `heure` servent encore. Les identifiants des événements restent stables : dans les agendas abonnés, les calls se déplacent, ils ne se dupliquent pas.
 
 ### Déplacer un seul call
 Dans `deplacements`, la clé est la date prévue au départ, la valeur la nouvelle date (et l'heure si elle change) :

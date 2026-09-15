@@ -90,7 +90,8 @@ def creneaux(cfg):
     res = []
     for r in rythmes:
         sous = dict(cfg, jour=r["jour"], heure=r.get("heure", cfg.get("heure")), duree_min=r.get("duree_min", cfg.get("duree_min", 90)))
-        res += creneaux_un_jour(sous)
+        titre_r = r.get("titre", cfg.get("titre", "Selfty Call"))
+        res += [c + (titre_r,) for c in creneaux_un_jour(sous)]
     return sorted(res, key=lambda c: (c[2], c[3], c[4]))
 
 
@@ -168,6 +169,33 @@ def vevent(uid, dtstamp, seq, debut_local, fin_local, titre, description, lieu, 
     return lignes
 
 
+def slug(texte):
+    """Identifiant stable et lisible pour l'UID d'un jalon."""
+    import unicodedata
+    base = unicodedata.normalize("NFKD", str(texte)).encode("ascii", "ignore").decode("ascii").lower()
+    return "".join(c if c.isalnum() else "-" for c in base).strip("-")[:40] or "jalon"
+
+
+def vjournee(uid, dtstamp, seq, debut, fin, titre, note, site):
+    """Événement « toute la journée » (VALUE=DATE, DTEND exclusif)."""
+    desc = (note.strip() + "\n\n") if note else ""
+    desc += "Agenda complet : " + site
+    return [
+        "BEGIN:VEVENT",
+        "UID:" + uid,
+        "DTSTAMP:" + dtstamp,
+        "SEQUENCE:%d" % seq,
+        "STATUS:CONFIRMED",
+        "TRANSP:TRANSPARENT",
+        "DTSTART;VALUE=DATE:%04d%02d%02d" % (debut.year, debut.month, debut.day),
+        "DTEND;VALUE=DATE:%04d%02d%02d" % (fin.year, fin.month, fin.day),
+        "SUMMARY:" + esc(titre),
+        "DESCRIPTION:" + esc(desc),
+        "CATEGORIES:" + esc("Selfty Academy · Jalon"),
+        "END:VEVENT",
+    ]
+
+
 def duree_lisible(minutes):
     if minutes % 60 == 0:
         return "%d h" % (minutes // 60)
@@ -201,14 +229,14 @@ def construire(cfg):
     evenements = []
 
     # 1. Les Selfty Calls hebdomadaires
-    for (prevue, k, d, h, m, duree) in creneaux(cfg):
+    for (prevue, k, d, h, m, duree, titre_r) in creneaux(cfg):
         debut = datetime(d.year, d.month, d.day, h, m)
         fin = debut + timedelta(minutes=duree)
         desc = cfg.get("description", "Lien Zoom : {zoom}").format(
             zoom=zoom, site=site, semaine="Semaine %d sur %d.\n\n" % (k, semaines))
-        uid = "selfty-call-%s@%s" % (prevue.isoformat(), DOMAINE)
+        uid = "selfty-call-%s-%02d%02d@%s" % (prevue.isoformat(), h, m, DOMAINE)
         evenements.append((debut, vevent(uid, dtstamp, seq, dt_local(d, h, m), dt_local(fin.date(), fin.hour, fin.minute),
-                                         titre, desc, zoom, zoom, rappel, "Selfty Academy")))
+                                         titre_r, desc, zoom, zoom, rappel, "Selfty Academy")))
 
     # 2. Calls supplémentaires ponctuels (hors rythme hebdo)
     for extra in cfg.get("calls_supplementaires", []) or []:
@@ -242,6 +270,14 @@ def construire(cfg):
         uid = "selfty-pratique-%s-%02d%02d@%s" % (d.isoformat(), h, m, DOMAINE)
         evenements.append((debut, vevent(uid, dtstamp, seq, dt_local(d, h, m), dt_local(fin.date(), fin.hour, fin.minute),
                                          t, desc, lien, lien, p.get("rappel_min", rappel), "Selfty Academy · Pratique")))
+
+    # 4. Jalons de la promo (événements « toute la journée » : ouvertures, examens, challenges)
+    for j in cfg.get("jalons", []) or []:
+        d = parse_date(j["date"])
+        fin = parse_date(j.get("fin", j["date"])) + timedelta(days=1)
+        uid = "selfty-jalon-%s-%s@%s" % (d.isoformat(), slug(j["titre"]), DOMAINE)
+        evenements.append((datetime(d.year, d.month, d.day, 0, 0),
+                           vjournee(uid, dtstamp, seq, d, fin, j["titre"], j.get("note", ""), site)))
 
     evenements.sort(key=lambda e: e[0])
     for _, ev in evenements:
