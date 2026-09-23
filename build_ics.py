@@ -208,6 +208,12 @@ def construire(cfg):
     seq = int(cfg.get("revision", 0))
     site = cfg.get("site_url", "https://%s/agenda/" % DOMAINE)
     zoom = cfg.get("zoom", "")
+    # Tant que le lien Zoom récurrent n'est pas donné par Anaïs, on n'écrit PAS le placeholder dans les
+    # événements : une élève qui s'abonne aujourd'hui aurait un lien mort dans son agenda. On met une
+    # phrase d'attente à la place, et l'agenda se corrigera tout seul au prochain build (abonnement, pas copie).
+    zoom_pret = bool(zoom) and "XXXXXXXX" not in zoom
+    if not zoom_pret:
+        zoom = "il sera ajouté ici dès qu'il est créé, ton agenda se met à jour tout seul"
     titre = cfg.get("titre", "Selfty Call avec Anaïs")
     rappel = cfg.get("rappel_min", 60)
     semaines = int(cfg.get("semaines", 27))
@@ -236,7 +242,7 @@ def construire(cfg):
             zoom=zoom, site=site, semaine="Semaine %d sur %d.\n\n" % (k, semaines))
         uid = "selfty-call-%s-%02d%02d@%s" % (prevue.isoformat(), h, m, DOMAINE)
         evenements.append((debut, vevent(uid, dtstamp, seq, dt_local(d, h, m), dt_local(fin.date(), fin.hour, fin.minute),
-                                         titre_r, desc, zoom, zoom, rappel, "Selfty Academy")))
+                                         titre_r, desc, zoom if zoom_pret else "", zoom if zoom_pret else "", rappel, "Selfty Academy")))
 
     # 2. Calls supplémentaires ponctuels (hors rythme hebdo)
     for extra in cfg.get("calls_supplementaires", []) or []:
@@ -246,7 +252,9 @@ def construire(cfg):
         debut = datetime(d.year, d.month, d.day, h, m)
         fin = debut + timedelta(minutes=duree)
         t = extra.get("titre", titre)
-        lien = extra.get("zoom", zoom)
+        lien = extra.get("zoom") or (zoom if zoom_pret else "")
+        if not lien:
+            lien = "il sera ajouté ici dès qu'il est créé, ton agenda se met à jour tout seul"
         desc = cfg.get("description", "Lien Zoom : {zoom}").format(zoom=lien, site=site, semaine="")
         if extra.get("note"):
             desc = extra["note"] + "\n\n" + desc

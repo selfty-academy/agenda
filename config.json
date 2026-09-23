@@ -1,111 +1,111 @@
 {
-  "_A_CONFIRMER_AVEC_ANAIS": {
-    "source": "Recopié le 16/09/2026 depuis l'agenda « Selfty Academy » créé par anaisbrault86@gmail.com et partagé avec Alex : Selfty Call le samedi 10h-11h30 et Selfty - Pratique le lundi 18h30-20h, du 17/10/2026 au 19/04/2027, plus les jalons de la promo.",
-    "attention_fuseau": "Vérifié le 16/09/2026 en repassant le Google Agenda d'Alex en Europe/Paris : les événements d'Anaïs sont bien à samedi 10h00-11h30 et lundi 18h30-20h00 heure de Paris, avant comme après le passage à l'heure d'hiver. Le décalage d'une heure vu au départ venait uniquement du fuseau « Maroc » réglé sur l'agenda d'Alex.",
-    "zoom": "PLACEHOLDER : remplacer https://us06web.zoom.us/j/XXXXXXXX par le lien Zoom récurrent des calls (pas celui du webinaire)."
+ "_A_CONFIRMER_AVEC_ANAIS": {
+  "source": "Recopié le 16/09/2026 depuis l'agenda « Selfty Academy » créé par anaisbrault86@gmail.com et partagé avec Alex : Selfty Call le samedi 10h-11h30 et Selfty - Pratique le lundi 18h30-20h, du 17/10/2026 au 19/04/2027, plus les jalons de la promo.",
+  "attention_fuseau": "Vérifié le 16/09/2026 en repassant le Google Agenda d'Alex en Europe/Paris : les événements d'Anaïs sont bien à samedi 10h00-11h30 et lundi 18h30-20h00 heure de Paris, avant comme après le passage à l'heure d'hiver. Le décalage d'une heure vu au départ venait uniquement du fuseau « Maroc » réglé sur l'agenda d'Alex.",
+  "zoom": "PLACEHOLDER : remplacer https://us06web.zoom.us/j/XXXXXXXX par le lien Zoom récurrent des calls (pas celui du webinaire)."
+ },
+ "titre": "Selfty Call",
+ "nom_calendrier": "Selfty Academy · Calls",
+ "fuseau": "Europe/Paris",
+ "jour": "samedi",
+ "heure": "10:00",
+ "duree_min": 90,
+ "date_debut": "2026-10-17",
+ "semaines": 28,
+ "rattraper_pauses": false,
+ "pauses": [],
+ "annulations": [
+  "2026-11-07",
+  "2026-11-09",
+  "2026-12-05",
+  "2026-12-07",
+  "2027-01-02",
+  "2027-01-04",
+  "2027-01-09",
+  "2027-01-11",
+  "2027-02-06",
+  "2027-02-08",
+  "2027-03-06",
+  "2027-03-08",
+  "2027-04-03",
+  "2027-04-05",
+  "2027-04-24",
+  "2027-04-26"
+ ],
+ "deplacements": {},
+ "calls_supplementaires": [
+  {
+   "date": "2026-10-12",
+   "heure": "18:30",
+   "duree_min": 90,
+   "titre": "Ouverture des portes - Module 1"
   },
-  "titre": "Selfty Call",
-  "nom_calendrier": "Selfty Academy · Calls",
-  "fuseau": "Europe/Paris",
-  "jour": "samedi",
-  "heure": "10:00",
-  "duree_min": 90,
-  "date_debut": "2026-10-17",
-  "semaines": 28,
-  "rattraper_pauses": false,
-  "pauses": [],
-  "annulations": [
-    "2026-11-07",
-    "2026-11-09",
-    "2026-12-05",
-    "2026-12-07",
-    "2027-01-02",
-    "2027-01-04",
-    "2027-01-09",
-    "2027-01-11",
-    "2027-02-06",
-    "2027-02-08",
-    "2027-03-06",
-    "2027-03-08",
-    "2027-04-03",
-    "2027-04-05",
-    "2027-04-24",
-    "2027-04-26"
-  ],
-  "deplacements": {},
-  "calls_supplementaires": [
-    {
-      "date": "2026-10-12",
-      "heure": "18:30",
-      "duree_min": 90,
-      "titre": "Ouverture des portes - Module 1"
-    },
-    {
-      "date": "2026-12-01",
-      "heure": "18:30",
-      "duree_min": 90,
-      "titre": "Call Q&A Certification + explication du portail- Ambre"
-    }
-  ],
-  "zoom": "https://us06web.zoom.us/j/XXXXXXXX",
-  "description": "Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom : {zoom}\n\nArrive 5 min avant, micro coupé. Prépare tes questions et de quoi noter.\n\n{semaine}Agenda complet et abonnement : {site}",
-  "rappel_min": 60,
-  "pratiques": [],
-  "pratiques_titre": "Pratique entre pairs (facultatif)",
-  "pratiques_description": "Séance de pratique entre élèves de la Selfty Academy, en duo ou en trio, en visio.\n\n{lien}{note}Facultatif : tu viens si tu peux.\n\nAgenda complet : {site}",
-  "site_url": "https://selfty-academy.github.io/agenda/",
-  "fichier": "calls-selfty.ics",
-  "revision": 5,
-  "rythmes": [
-    {
-      "jour": "samedi",
-      "heure": "10:00",
-      "duree_min": 90,
-      "titre": "Selfty Call"
-    },
-    {
-      "jour": "lundi",
-      "heure": "18:30",
-      "duree_min": 90,
-      "titre": "Selfty - Pratique"
-    }
-  ],
-  "jalons": [
-    {
-      "date": "2026-10-17",
-      "titre": "Annonce début challenge facilitation"
-    },
-    {
-      "date": "2026-12-12",
-      "titre": "Ouverture du PORTAIL"
-    },
-    {
-      "date": "2026-12-26",
-      "titre": "Annonce gagnantes challenge Facilitation"
-    },
-    {
-      "date": "2026-12-26",
-      "titre": "Fermeture du portail + Début examen"
-    },
-    {
-      "date": "2027-01-12",
-      "titre": "Event (?)"
-    },
-    {
-      "date": "2027-01-15",
-      "titre": "Deadline examens + PORTAIL done"
-    },
-    {
-      "date": "2027-02-20",
-      "titre": "60 days challenge : Début"
-    },
-    {
-      "date": "2027-04-17",
-      "titre": "Fin Selfty cohort n°1"
-    },
-    {
-      "date": "2027-04-21",
-      "titre": "60 days challenge : Fin"
-    }
-  ]
+  {
+   "date": "2026-12-01",
+   "heure": "18:30",
+   "duree_min": 90,
+   "titre": "Call Q&A Certification + explication du portail- Ambre"
+  }
+ ],
+ "zoom": "https://us06web.zoom.us/j/XXXXXXXX",
+ "description": "Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom : {zoom}\n\nArrive 5 min avant, micro coupé. Prépare tes questions et de quoi noter.\n\n{semaine}Agenda complet et abonnement : {site}",
+ "rappel_min": 60,
+ "pratiques": [],
+ "pratiques_titre": "Pratique entre pairs (facultatif)",
+ "pratiques_description": "Séance de pratique entre élèves de la Selfty Academy, en duo ou en trio, en visio.\n\n{lien}{note}Facultatif : tu viens si tu peux.\n\nAgenda complet : {site}",
+ "site_url": "https://selfty-academy.github.io/agenda/",
+ "fichier": "calls-selfty.ics",
+ "revision": 6,
+ "rythmes": [
+  {
+   "jour": "samedi",
+   "heure": "10:00",
+   "duree_min": 90,
+   "titre": "Selfty Call"
+  },
+  {
+   "jour": "lundi",
+   "heure": "18:30",
+   "duree_min": 90,
+   "titre": "Selfty - Pratique"
+  }
+ ],
+ "jalons": [
+  {
+   "date": "2026-10-17",
+   "titre": "Annonce début challenge facilitation"
+  },
+  {
+   "date": "2026-12-12",
+   "titre": "Ouverture du PORTAIL"
+  },
+  {
+   "date": "2026-12-26",
+   "titre": "Annonce gagnantes challenge Facilitation"
+  },
+  {
+   "date": "2026-12-26",
+   "titre": "Fermeture du portail + Début examen"
+  },
+  {
+   "date": "2027-01-12",
+   "titre": "Event (?)"
+  },
+  {
+   "date": "2027-01-15",
+   "titre": "Deadline examens + PORTAIL done"
+  },
+  {
+   "date": "2027-02-20",
+   "titre": "60 days challenge : Début"
+  },
+  {
+   "date": "2027-04-17",
+   "titre": "Fin Selfty cohort n°1"
+  },
+  {
+   "date": "2027-04-21",
+   "titre": "60 days challenge : Fin"
+  }
+ ]
 }
