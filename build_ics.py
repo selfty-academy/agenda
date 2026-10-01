@@ -91,7 +91,7 @@ def creneaux(cfg):
     for r in rythmes:
         sous = dict(cfg, jour=r["jour"], heure=r.get("heure", cfg.get("heure")), duree_min=r.get("duree_min", cfg.get("duree_min", 90)))
         titre_r = r.get("titre", cfg.get("titre", "Selfty Call"))
-        res += [c + (titre_r,) for c in creneaux_un_jour(sous)]
+        res += [c + (titre_r, r.get("zoom")) for c in creneaux_un_jour(sous)]
     return sorted(res, key=lambda c: (c[2], c[3], c[4]))
 
 
@@ -235,14 +235,16 @@ def construire(cfg):
     evenements = []
 
     # 1. Les Selfty Calls hebdomadaires
-    for (prevue, k, d, h, m, duree, titre_r) in creneaux(cfg):
+    # Chaque rythme peut avoir son propre lien Zoom (samedi ≠ lundi), sinon celui du haut de config.json
+    for (prevue, k, d, h, m, duree, titre_r, zoom_r) in creneaux(cfg):
         debut = datetime(d.year, d.month, d.day, h, m)
         fin = debut + timedelta(minutes=duree)
+        lien = zoom_r or (zoom if zoom_pret else "")
         desc = cfg.get("description", "Lien Zoom : {zoom}").format(
-            zoom=zoom, site=site, semaine="Semaine %d sur %d.\n\n" % (k, semaines))
+            zoom=lien or zoom, site=site, semaine="Semaine %d sur %d.\n\n" % (k, semaines))
         uid = "selfty-call-%s-%02d%02d@%s" % (prevue.isoformat(), h, m, DOMAINE)
         evenements.append((debut, vevent(uid, dtstamp, seq, dt_local(d, h, m), dt_local(fin.date(), fin.hour, fin.minute),
-                                         titre_r, desc, zoom if zoom_pret else "", zoom if zoom_pret else "", rappel, "Selfty Academy")))
+                                         titre_r, desc, lien, lien, rappel, "Selfty Academy")))
 
     # 2. Calls supplémentaires ponctuels (hors rythme hebdo)
     for extra in cfg.get("calls_supplementaires", []) or []:
