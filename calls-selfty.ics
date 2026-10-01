@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Selfty Academy · Calls
 X-WR-CALDESC:Les Selfty Calls en live avec Anaïs\, avec le lien Zoom. Abon
- nement : https://selfty-academy.github.io/agenda/
+ nement : https://187-77-169-11.sslip.io/agenda/
 X-WR-TIMEZONE:Europe/Paris
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
-URL:https://selfty-academy.github.io/agenda/
+URL:https://187-77-169-11.sslip.io/agenda/
 BEGIN:VTIMEZONE
 TZID:Europe/Paris
 X-LIC-LOCATION:Europe/Paris
@@ -30,7 +30,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:selfty-call-extra-2026-10-12-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -40,8 +40,8 @@ SUMMARY:Ouverture des portes - Module 1
 DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
- quoi noter.\n\nAgenda complet et abonnement : https://selfty-academy.githu
- b.io/agenda/
+ quoi noter.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.
+ io/agenda/
 CATEGORIES:Selfty Academy
 LOCATION:il sera ajouté ici dès qu'il est créé\, ton agenda se met à j
  our tout seul
@@ -56,19 +56,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2026-10-17-annonce-debut-challenge-facilitation@selfty-aca
  demy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:Annonce début challenge facilitation
-DESCRIPTION:Agenda complet : https://selfty-academy.github.io/agenda/
+DESCRIPTION:Agenda complet : https://187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-10-17-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -79,7 +79,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 1 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -89,7 +89,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-10-19-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -100,7 +100,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 1 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -110,7 +110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-10-24-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -121,7 +121,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 2 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -131,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-10-26-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -142,7 +142,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 2 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -152,7 +152,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-10-31-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -163,7 +163,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 3 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -173,7 +173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-02-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -184,7 +184,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 3 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -194,7 +194,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-14-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -205,7 +205,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 5 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -215,7 +215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-16-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -226,7 +226,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 5 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -236,7 +236,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-21-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -247,7 +247,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 6 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -257,7 +257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-23-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -268,7 +268,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 6 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -278,7 +278,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-28-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -289,7 +289,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 7 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -299,7 +299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-30-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -310,7 +310,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 7 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -320,7 +320,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-extra-2026-12-01-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -330,8 +330,8 @@ SUMMARY:Call Q&A Certification + explication du portail- Ambre
 DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
- quoi noter.\n\nAgenda complet et abonnement : https://selfty-academy.githu
- b.io/agenda/
+ quoi noter.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.
+ io/agenda/
 CATEGORIES:Selfty Academy
 LOCATION:il sera ajouté ici dès qu'il est créé\, ton agenda se met à j
  our tout seul
@@ -345,19 +345,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2026-12-12-ouverture-du-portail@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Ouverture du PORTAIL
-DESCRIPTION:Agenda complet : https://selfty-academy.github.io/agenda/
+DESCRIPTION:Agenda complet : https://187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-12-12-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -368,7 +368,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 9 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -378,7 +378,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-12-14-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -389,7 +389,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 9 sur 28.\n\nAgenda complet et abonnement : https:/
- /selfty-academy.github.io/agenda/
+ /187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -399,7 +399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-12-19-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -410,7 +410,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 10 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -420,7 +420,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-12-21-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -431,7 +431,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 10 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -442,32 +442,32 @@ END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2026-12-26-annonce-gagnantes-challenge-facilitation@selfty
  -academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Annonce gagnantes challenge Facilitation
-DESCRIPTION:Agenda complet : https://selfty-academy.github.io/agenda/
+DESCRIPTION:Agenda complet : https://187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2026-12-26-fermeture-du-portail---debut-examen@selfty-acad
  emy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Fermeture du portail + Début examen
-DESCRIPTION:Agenda complet : https://selfty-academy.github.io/agenda/
+DESCRIPTION:Agenda complet : https://187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-12-26-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -478,7 +478,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 11 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -488,7 +488,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-12-28-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -499,7 +499,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 11 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -509,32 +509,32 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2027-01-12-event@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Event (?)
-DESCRIPTION:Agenda complet : https://selfty-academy.github.io/agenda/
+DESCRIPTION:Agenda complet : https://187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2027-01-15-deadline-examens---portail-done@selfty-academy.
  github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Deadline examens + PORTAIL done
-DESCRIPTION:Agenda complet : https://selfty-academy.github.io/agenda/
+DESCRIPTION:Agenda complet : https://187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-01-16-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -545,7 +545,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 14 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -555,7 +555,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-01-18-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -566,7 +566,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 14 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -576,7 +576,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-01-23-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -587,7 +587,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 15 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -597,7 +597,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-01-25-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -608,7 +608,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 15 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -618,7 +618,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-01-30-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -629,7 +629,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 16 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -639,7 +639,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-02-01-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -650,7 +650,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 16 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -660,7 +660,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-02-13-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -671,7 +671,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 18 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -681,7 +681,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-02-15-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -692,7 +692,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 18 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -703,19 +703,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2027-02-20-60-days-challenge---debut@selfty-academy.github
  .io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:60 days challenge : Début
-DESCRIPTION:Agenda complet : https://selfty-academy.github.io/agenda/
+DESCRIPTION:Agenda complet : https://187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-02-20-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -726,7 +726,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 19 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -736,7 +736,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-02-22-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -747,7 +747,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 19 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -757,7 +757,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-02-27-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -768,7 +768,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 20 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -778,7 +778,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-01-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -789,7 +789,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 20 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -799,7 +799,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-13-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -810,7 +810,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 22 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -820,7 +820,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-15-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -831,7 +831,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 22 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -841,7 +841,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-20-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -852,7 +852,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 23 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -862,7 +862,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-22-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -873,7 +873,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 23 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -883,7 +883,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-27-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -894,7 +894,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 24 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -904,7 +904,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-29-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -915,7 +915,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 24 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -925,7 +925,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-04-10-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -936,7 +936,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 26 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -946,7 +946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-04-12-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -957,7 +957,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 26 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -967,19 +967,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2027-04-17-fin-selfty-cohort-n1@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:Fin Selfty cohort n°1
-DESCRIPTION:Agenda complet : https://selfty-academy.github.io/agenda/
+DESCRIPTION:Agenda complet : https://187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-04-17-1000@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -990,7 +990,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 27 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1000,7 +1000,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-04-19-1830@selfty-academy.github.io
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1011,7 +1011,7 @@ DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
   il sera ajouté ici dès qu'il est créé\, ton agenda se met à jour tou
  t seul\n\nArrive 5 min avant\, micro coupé. Prépare tes questions et de 
  quoi noter.\n\nSemaine 27 sur 28.\n\nAgenda complet et abonnement : https:
- //selfty-academy.github.io/agenda/
+ //187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1022,14 +1022,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2027-04-21-60-days-challenge---fin@selfty-academy.github.i
  o
-DTSTAMP:20260923T141416Z
+DTSTAMP:20261001T145947Z
 SEQUENCE:6
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20270421
 DTEND;VALUE=DATE:20270422
 SUMMARY:60 days challenge : Fin
-DESCRIPTION:Agenda complet : https://selfty-academy.github.io/agenda/
+DESCRIPTION:Agenda complet : https://187-77-169-11.sslip.io/agenda/
 CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 END:VCALENDAR

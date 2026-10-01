@@ -53,7 +53,7 @@
  "pratiques": [],
  "pratiques_titre": "Pratique entre pairs (facultatif)",
  "pratiques_description": "Séance de pratique entre élèves de la Selfty Academy, en duo ou en trio, en visio.\n\n{lien}{note}Facultatif : tu viens si tu peux.\n\nAgenda complet : {site}",
- "site_url": "https://selfty-academy.github.io/agenda/",
+ "site_url": "https://187-77-169-11.sslip.io/agenda/",
  "fichier": "calls-selfty.ics",
  "revision": 6,
  "rythmes": [
