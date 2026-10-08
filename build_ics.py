@@ -91,7 +91,7 @@ def creneaux(cfg):
     for r in rythmes:
         sous = dict(cfg, jour=r["jour"], heure=r.get("heure", cfg.get("heure")), duree_min=r.get("duree_min", cfg.get("duree_min", 90)))
         titre_r = r.get("titre", cfg.get("titre", "Selfty Call"))
-        res += [c + (titre_r, r.get("zoom")) for c in creneaux_un_jour(sous)]
+        res += [c + (titre_r, r.get("zoom"), r.get("description")) for c in creneaux_un_jour(sous)]
     return sorted(res, key=lambda c: (c[2], c[3], c[4]))
 
 
@@ -236,11 +236,11 @@ def construire(cfg):
 
     # 1. Les Selfty Calls hebdomadaires
     # Chaque rythme peut avoir son propre lien Zoom (samedi ≠ lundi), sinon celui du haut de config.json
-    for (prevue, k, d, h, m, duree, titre_r, zoom_r) in creneaux(cfg):
+    for (prevue, k, d, h, m, duree, titre_r, zoom_r, desc_r) in creneaux(cfg):
         debut = datetime(d.year, d.month, d.day, h, m)
         fin = debut + timedelta(minutes=duree)
         lien = zoom_r or (zoom if zoom_pret else "")
-        desc = cfg.get("description", "Lien Zoom : {zoom}").format(
+        desc = (desc_r or cfg.get("description", "Lien Zoom : {zoom}")).format(
             zoom=lien or zoom, site=site, semaine="Semaine %d sur %d.\n\n" % (k, semaines))
         uid = "selfty-call-%s-%02d%02d@%s" % (prevue.isoformat(), h, m, DOMAINE)
         evenements.append((debut, vevent(uid, dtstamp, seq, dt_local(d, h, m), dt_local(fin.date(), fin.hour, fin.minute),

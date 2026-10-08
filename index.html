@@ -157,10 +157,6 @@
       <summary>Plutôt un rappel avant chaque call ?</summary>
       <p>Chaque call arrive déjà avec un rappel 1 h avant. Tu peux en ajouter d'autres dans ton agenda comme pour n'importe quel événement.</p>
     </details>
-    <details>
-      <summary>Je veux me désabonner</summary>
-      <p>Supprime simplement l'agenda « Selfty Academy · Calls » de ton application : tous les calls disparaissent d'un coup.</p>
-    </details>
   </section>
 
   <footer>
@@ -245,7 +241,7 @@
       var okLink = /^https?:\/\//.test(link) && link.indexOf('XXXXXXXX') < 0;
       return '<li><div class="date"><b>' + h(fmtNum.format(d)) + '</b><span>' + h(fmtMois.format(d).replace('.', '')) + '</span></div>' +
         '<div class="ev"><b>' + h(e.title || 'Selfty Call') + '</b><span>' + h(fmtJour.format(d)) + ' · ' + h(fmtHeure.format(d)).replace(':', 'h') + (e.end ? ' à ' + h(fmtHeure.format(e.end)).replace(':', 'h') : '') + '</span>' +
-        (isPrat ? '<span class="tag">facultatif</span>' : '') + '</div>' +
+        '</div>' +
         (okLink ? '<a class="zoom" href="' + h(link) + '" target="_blank" rel="noopener">Zoom</a>' : '') + '</li>';
     }).join('');
     more.hidden = all || futurs.length <= 5;

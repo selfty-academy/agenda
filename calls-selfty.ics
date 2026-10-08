@@ -31,8 +31,8 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:selfty-jalon-2026-10-10-ouverture-des-portes---introduction---mo@selfty
  -academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20261010
@@ -44,8 +44,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2026-10-17-annonce-debut-challenge-facilitation@selfty-aca
  demy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20261017
@@ -56,8 +56,8 @@ CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-10-17-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261017T100000
@@ -79,17 +79,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-10-19-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261019T183000
 DTEND;TZID=Europe/Paris:20261019T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 1 sur 28.\n\nAgend
- a complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 1 su
+ r 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/age
+ nda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -102,8 +103,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-10-24-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261024T100000
@@ -125,17 +126,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-10-26-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261026T183000
 DTEND;TZID=Europe/Paris:20261026T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 2 sur 28.\n\nAgend
- a complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 2 su
+ r 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/age
+ nda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -148,8 +150,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-10-31-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261031T100000
@@ -171,17 +173,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-02-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261102T183000
 DTEND;TZID=Europe/Paris:20261102T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 3 sur 28.\n\nAgend
- a complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 3 su
+ r 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/age
+ nda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -194,8 +197,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-14-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261114T100000
@@ -217,17 +220,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-16-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261116T183000
 DTEND;TZID=Europe/Paris:20261116T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 5 sur 28.\n\nAgend
- a complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 5 su
+ r 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/age
+ nda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -240,8 +244,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-21-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261121T100000
@@ -263,17 +267,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-23-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261123T183000
 DTEND;TZID=Europe/Paris:20261123T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 6 sur 28.\n\nAgend
- a complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 6 su
+ r 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/age
+ nda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -286,8 +291,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-28-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261128T100000
@@ -309,17 +314,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-11-30-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261130T183000
 DTEND;TZID=Europe/Paris:20261130T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 7 sur 28.\n\nAgend
- a complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 7 su
+ r 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/age
+ nda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -332,8 +338,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-extra-2026-12-01-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261201T183000
@@ -355,8 +361,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2026-12-12-ouverture-du-portail@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20261212
@@ -367,8 +373,8 @@ CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-12-12-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261212T100000
@@ -390,17 +396,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-12-14-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261214T183000
 DTEND;TZID=Europe/Paris:20261214T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 9 sur 28.\n\nAgend
- a complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 9 su
+ r 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/age
+ nda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -413,8 +420,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-12-19-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261219T100000
@@ -436,17 +443,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-12-21-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261221T183000
 DTEND;TZID=Europe/Paris:20261221T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 10 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 10 s
+ ur 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/ag
+ enda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -460,8 +468,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2026-12-26-annonce-gagnantes-challenge-facilitation@selfty
  -academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20261226
@@ -473,8 +481,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2026-12-26-fermeture-du-portail---debut-examen@selfty-acad
  emy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20261226
@@ -485,8 +493,8 @@ CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-12-26-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261226T100000
@@ -508,17 +516,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2026-12-28-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20261228T183000
 DTEND;TZID=Europe/Paris:20261228T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 11 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 11 s
+ ur 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/ag
+ enda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -531,8 +540,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2027-01-12-event@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20270112
@@ -544,8 +553,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2027-01-15-deadline-examens---portail-done@selfty-academy.
  github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20270115
@@ -556,8 +565,8 @@ CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-01-16-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270116T100000
@@ -579,17 +588,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-01-18-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270118T183000
 DTEND;TZID=Europe/Paris:20270118T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 14 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 14 s
+ ur 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/ag
+ enda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -602,8 +612,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-01-23-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270123T100000
@@ -625,17 +635,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-01-25-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270125T183000
 DTEND;TZID=Europe/Paris:20270125T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 15 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 15 s
+ ur 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/ag
+ enda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -648,8 +659,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-01-30-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270130T100000
@@ -671,17 +682,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-02-01-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270201T183000
 DTEND;TZID=Europe/Paris:20270201T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 16 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 16 s
+ ur 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/ag
+ enda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -694,8 +706,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-02-13-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270213T100000
@@ -717,17 +729,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-02-15-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270215T183000
 DTEND;TZID=Europe/Paris:20270215T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 18 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 18 s
+ ur 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/ag
+ enda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -741,8 +754,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2027-02-20-60-days-challenge---debut@selfty-academy.github
  .io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20270220
@@ -753,8 +766,8 @@ CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-02-20-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270220T100000
@@ -776,17 +789,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-02-22-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270222T183000
 DTEND;TZID=Europe/Paris:20270222T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 19 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 19 s
+ ur 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/ag
+ enda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -799,8 +813,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-02-27-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270227T100000
@@ -822,17 +836,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-01-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270301T183000
 DTEND;TZID=Europe/Paris:20270301T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 20 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 20 s
+ ur 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/ag
+ enda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -845,8 +860,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-13-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270313T100000
@@ -868,17 +883,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-15-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270315T183000
 DTEND;TZID=Europe/Paris:20270315T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 22 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 22 s
+ ur 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/ag
+ enda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -891,8 +907,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-20-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270320T100000
@@ -914,17 +930,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-22-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270322T183000
 DTEND;TZID=Europe/Paris:20270322T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 23 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 23 s
+ ur 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/ag
+ enda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -937,8 +954,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-27-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270327T100000
@@ -960,17 +977,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-03-29-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270329T183000
 DTEND;TZID=Europe/Paris:20270329T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 24 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 24 s
+ ur 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/ag
+ enda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -983,8 +1001,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-04-10-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270410T100000
@@ -1006,17 +1024,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-04-12-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270412T183000
 DTEND;TZID=Europe/Paris:20270412T200000
 SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 26 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
+DESCRIPTION:Selfty - Pratique : 1h30 sur Zoom\, on met en pratique les outi
+ ls du module.\n\nLien Zoom : https://us06web.zoom.us/j/85694424331\n\nArri
+ ve 5 min avant\, caméra allumée\, dans un endroit calme.\n\nSemaine 26 s
+ ur 28.\n\nAgenda complet et abonnement : https://187-77-169-11.sslip.io/ag
+ enda/
 CATEGORIES:Selfty Academy
 LOCATION:https://us06web.zoom.us/j/85694424331
 URL:https://us06web.zoom.us/j/85694424331
@@ -1029,8 +1048,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-jalon-2027-04-17-fin-selfty-cohort-n1@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20270417
@@ -1041,8 +1060,8 @@ CATEGORIES:Selfty Academy · Jalon
 END:VEVENT
 BEGIN:VEVENT
 UID:selfty-call-2027-04-17-1000@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 DTSTART;TZID=Europe/Paris:20270417T100000
@@ -1063,33 +1082,10 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:selfty-call-2027-04-19-1830@selfty-academy.github.io
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-DTSTART;TZID=Europe/Paris:20270419T183000
-DTEND;TZID=Europe/Paris:20270419T200000
-SUMMARY:Selfty - Pratique
-DESCRIPTION:Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom :
-  https://us06web.zoom.us/j/85694424331\n\nArrive 5 min avant\, micro coup
- é. Prépare tes questions et de quoi noter.\n\nSemaine 27 sur 28.\n\nAgen
- da complet et abonnement : https://187-77-169-11.sslip.io/agenda/
-CATEGORIES:Selfty Academy
-LOCATION:https://us06web.zoom.us/j/85694424331
-URL:https://us06web.zoom.us/j/85694424331
-X-GOOGLE-CONFERENCE:https://us06web.zoom.us/j/85694424331
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Selfty - Pratique dans 1 h
-TRIGGER:-PT60M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:selfty-jalon-2027-04-21-60-days-challenge---fin@selfty-academy.github.i
  o
-DTSTAMP:20261004T183719Z
-SEQUENCE:9
+DTSTAMP:20261008T183608Z
+SEQUENCE:10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20270421

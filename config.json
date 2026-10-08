@@ -3,7 +3,8 @@
     "source": "Recopié le 16/09/2026 depuis l'agenda « Selfty Academy » créé par anaisbrault86@gmail.com et partagé avec Alex : Selfty Call le samedi 10h-11h30 et Selfty - Pratique le lundi 18h30-20h, du 17/10/2026 au 19/04/2027, plus les jalons de la promo.",
     "attention_fuseau": "Vérifié le 16/09/2026 en repassant le Google Agenda d'Alex en Europe/Paris : les événements d'Anaïs sont bien à samedi 10h00-11h30 et lundi 18h30-20h00 heure de Paris, avant comme après le passage à l'heure d'hiver. Le décalage d'une heure vu au départ venait uniquement du fuseau « Maroc » réglé sur l'agenda d'Alex.",
     "zoom": "Liens donnés par Anaïs (via Alex) le 01/10/2026 : samedi https://us06web.zoom.us/j/85357157948, lundi https://us06web.zoom.us/j/85694424331. Ouverture des portes (lundi 12/10) = lien du lundi. Call Ambre (mardi 01/12) = lien d'Ambre https://us06web.zoom.us/j/83218447462 (envoyé par Ambre sur le groupe Selfty Team le 02/10/2026).",
-    "ouverture_portes": "04/10/2026 : vocal d'Anaïs du 30/09 01h26 « j'ai dit à tout le monde que ça ouvrait le 10 et pas le 12, faut changer ouverture des portes le 10, mais pas l'heure, juste ouverture des portes » + son planning du 01/10 (« le 10 l'introduction et le module 1 sortent », « le 17 premier call »). Le call Zoom du lundi 12/10 18h30 est remplacé par un jalon toute la journée le samedi 10/10. À confirmer avec elle au call du 5/10."
+    "ouverture_portes": "04/10/2026 : vocal d'Anaïs du 30/09 01h26 « j'ai dit à tout le monde que ça ouvrait le 10 et pas le 12, faut changer ouverture des portes le 10, mais pas l'heure, juste ouverture des portes » + son planning du 01/10 (« le 10 l'introduction et le module 1 sortent », « le 17 premier call »). Le call Zoom du lundi 12/10 18h30 est remplacé par un jalon toute la journée le samedi 10/10. À confirmer avec elle au call du 5/10.",
+    "facultatif": "08/10/2026 : Anaïs « ce n'est ABSOLUMENT PAS FACULTATIF » → plus aucun « facultatif » (page + .ics) ; pratique du 19/04/2027 supprimée (« on va finir le 17 ») ; FAQ « Je veux me désabonner » retirée (« ils n'ont pas le droit de se désabonner »)."
   },
   "titre": "Selfty Call",
   "nom_calendrier": "Selfty Academy · Calls",
@@ -31,7 +32,8 @@
     "2027-04-03",
     "2027-04-05",
     "2027-04-24",
-    "2027-04-26"
+    "2027-04-26",
+    "2027-04-19"
   ],
   "deplacements": {},
   "calls_supplementaires": [
@@ -47,11 +49,11 @@
   "description": "Selfty Call en live avec Anaïs : 1h30 sur Zoom.\n\nLien Zoom : {zoom}\n\nArrive 5 min avant, micro coupé. Prépare tes questions et de quoi noter.\n\n{semaine}Agenda complet et abonnement : {site}",
   "rappel_min": 60,
   "pratiques": [],
-  "pratiques_titre": "Pratique entre pairs (facultatif)",
-  "pratiques_description": "Séance de pratique entre élèves de la Selfty Academy, en duo ou en trio, en visio.\n\n{lien}{note}Facultatif : tu viens si tu peux.\n\nAgenda complet : {site}",
+  "pratiques_titre": "Selfty - Pratique",
+  "pratiques_description": "Séance de pratique entre élèves de la Selfty Academy, en visio.\n\n{lien}{note}Agenda complet : {site}",
   "site_url": "https://187-77-169-11.sslip.io/agenda/",
   "fichier": "calls-selfty.ics",
-  "revision": 9,
+  "revision": 10,
   "rythmes": [
     {
       "jour": "samedi",
@@ -65,7 +67,8 @@
       "heure": "18:30",
       "duree_min": 90,
       "titre": "Selfty - Pratique",
-      "zoom": "https://us06web.zoom.us/j/85694424331"
+      "zoom": "https://us06web.zoom.us/j/85694424331",
+      "description": "Selfty - Pratique : 1h30 sur Zoom, on met en pratique les outils du module.\n\nLien Zoom : {zoom}\n\nArrive 5 min avant, caméra allumée, dans un endroit calme.\n\n{semaine}Agenda complet et abonnement : {site}"
     }
   ],
   "jalons": [
