@@ -53,7 +53,7 @@
   "pratiques_description": "Séance de pratique entre élèves de la Selfty Academy, en visio.\n\n{lien}{note}Agenda complet : {site}",
   "site_url": "https://187-77-169-11.sslip.io/agenda/",
   "fichier": "calls-selfty.ics",
-  "revision": 10,
+  "revision": 11,
   "rythmes": [
     {
       "jour": "samedi",
@@ -90,15 +90,15 @@
     },
     {
       "date": "2026-12-26",
-      "titre": "Fermeture du portail + Début examen"
+      "titre": "Fermeture du Portail + envoi de l'examen écrit"
+    },
+    {
+      "date": "2027-01-11",
+      "titre": "Examen écrit à rendre au plus tard + Portail terminé"
     },
     {
       "date": "2027-01-12",
       "titre": "Event (?)"
-    },
-    {
-      "date": "2027-01-15",
-      "titre": "Deadline examens + PORTAIL done"
     },
     {
       "date": "2027-02-20",
@@ -107,6 +107,10 @@
     {
       "date": "2027-04-17",
       "titre": "Fin Selfty cohort n°1"
+    },
+    {
+      "date": "2027-04-17",
+      "titre": "10 vidéos de coaching à rendre au plus tard"
     },
     {
       "date": "2027-04-21",
