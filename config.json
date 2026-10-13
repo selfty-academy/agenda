@@ -39,7 +39,7 @@
   "calls_supplementaires": [
     {
       "date": "2026-12-01",
-      "heure": "18:30",
+      "heure": "18:00",
       "duree_min": 90,
       "titre": "Call Q&A Certification + explication du portail- Ambre",
       "zoom": "https://us06web.zoom.us/j/83218447462"
@@ -53,7 +53,7 @@
   "pratiques_description": "Séance de pratique entre élèves de la Selfty Academy, en visio.\n\n{lien}{note}Agenda complet : {site}",
   "site_url": "https://187-77-169-11.sslip.io/agenda/",
   "fichier": "calls-selfty.ics",
-  "revision": 11,
+  "revision": 12,
   "rythmes": [
     {
       "jour": "samedi",
@@ -64,7 +64,7 @@
     },
     {
       "jour": "lundi",
-      "heure": "18:30",
+      "heure": "18:00",
       "duree_min": 90,
       "titre": "Selfty - Pratique",
       "zoom": "https://us06web.zoom.us/j/85694424331",
@@ -116,5 +116,6 @@
       "date": "2027-04-21",
       "titre": "60 days challenge : Fin"
     }
-  ]
+  ],
+  "heure_18h": "13/10/2026 : Anaïs (vocal 12h42 + groupe 12h43-12h46) : les pratiques et les calls du soir sont à 18h, pas 18h30. Pratique du lundi passée à 18:00-19:30, Q&A certif du 01/12 à 18:00."
 }
